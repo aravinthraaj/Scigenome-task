@@ -19,6 +19,7 @@ function PasswordInput() {
               className="passwordInput"
             />
             <div className="visibilityIcon">
+              {!passwordShown ?  <div className="strike"></div> : null}
               <img
                 onClick={togglePasswordVisiblity}
                 src={visibilityIcon}
