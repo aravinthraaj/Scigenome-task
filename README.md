@@ -45,7 +45,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://scigenome-interview-task.netlify.app/)
 
 A Task for an Interview which to replicate the figma design.
 
