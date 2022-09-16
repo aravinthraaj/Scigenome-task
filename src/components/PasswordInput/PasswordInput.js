@@ -6,7 +6,7 @@ import "./passwordInput.css"
 function PasswordInput() {
   const [passwordShown, setPasswordShown] = useState(false)
   const togglePasswordVisiblity = () => {
-    setPasswordShown(passwordShown ? false : true)
+    setPasswordShown(!passwordShown)
   }
   return (
     <div className="passwordInputWrapper">
